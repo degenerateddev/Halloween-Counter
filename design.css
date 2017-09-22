@@ -1,0 +1,71 @@
+@font-face {
+	font-family: "Horror";
+	src: url("horroroidexpandital.ttf") format("truetype");
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family:"Horror",heletica,sans-serif;
+	font-size:12px;
+    background: url('tree.jpg');
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+
+/* Countdown */
+
+.inner {
+display: inline-block;
+border-radius: 0px;
+border: 5px solid rgba(255, 255, 255, 1);
+color: #fff;
+padding: 15px;
+width: 80px;
+height: 80px;
+text-shadow: 1px 1px 10px #ff0b;
+}
+
+
+.small {
+font-size: 15px;
+font-weight: bold;
+}
+
+.headingup {
+color: #fff;
+display: inline-block;
+line-height: 3;
+}
+
+
+.headingdown {
+display: inline-block;
+color: #fff;
+line-height: 3;
+}
